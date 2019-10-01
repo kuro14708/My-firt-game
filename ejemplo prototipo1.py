@@ -5,7 +5,7 @@ ventana = tk.Tk()
 canvas = tk.Canvas(ventana, width=800, height=800)
 canvas.pack() 
 
-imagen = tk.PhotoImage(file="mega.png")
+imagen = tk.PhotoImage(file="./mega.png")
 imagen = canvas.create_image(10, 10, anchor=tk.NW, image=imagen)
  
  
